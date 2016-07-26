@@ -138,6 +138,24 @@ BOXCollaborationRole *const BOXCollaborationRoleViewer = @"viewer";
 BOXCollaborationRole *const BOXCollaborationRolePreviewer = @"previewer";
 BOXCollaborationRole *const BOXCollaborationRoleUploader = @"uploader";
 
+// Representation Type
+BOXRepresentationType *const BOXRepresentationTypeOriginal = @"original";
+BOXRepresentationType *const BOXRepresentationTypePDF = @"pdf";
+BOXRepresentationType *const BOXRepresentationTypeMP4 = @"mp4";
+BOXRepresentationType *const BOXRepresentationTypeMP3 = @"mp3";
+BOXRepresentationType *const BOXRepresentationTypePNG = @"png";
+BOXRepresentationType *const BOXRepresentationTypeJPG = @"jpg";
+BOXRepresentationType *const BOXRepresentationType3D = @"3d";
+BOXRepresentationType *const BOXRepresentationTypeFilmstrip = @"filmstrip";
+BOXRepresentationType *const BOXRepresentationTypeDASH = @"dash";
+BOXRepresentationType *const BOXRepresentationTypeCrocodoc = @"crocodoc";
+
+// Representation Status
+BOXRepresentationStatus *const BOXRepresentationStatusSuccess = @"success";
+BOXRepresentationStatus *const BOXRepresentationStatusPending = @"pending";
+BOXRepresentationStatus *const BOXRepresentationStatusNone = @"none";
+BOXRepresentationStatus *const BOXRepresentationStatusError = @"error";
+
 // Folder Upload Email Access Levels
 BOXFolderUploadEmailAccessLevel *const BOXFolderUploadEmailAccessLevelOpen = @"open";
 BOXFolderUploadEmailAccessLevel *const BOXFolderUploadEmailAccessLevelCollaborators = @"collaborators";
@@ -146,6 +164,19 @@ BOXFolderUploadEmailAccessLevel *const BOXFolderUploadEmailAccessLevelCollaborat
 NSString *const BOXAPICollectionKeyEntries = @"entries";
 NSString *const BOXAPICollectionKeyTotalCount = @"total_count";
 NSString *const BOXAPICollectionKeyNextStreamPosition = @"next_stream_position";
+
+// Representation keys
+NSString *const BOXAPIRepresentationKeyEntries = @"entries";
+NSString *const BOXAPIRepresentationKeyRepresentation = @"representation";
+NSString *const BOXAPIRepresentationKeyProperties = @"properties";
+NSString *const BOXAPIRepresentationKeyStatus = @"status";
+NSString *const BOXAPIRepresentationKeyDetails = @"details";
+NSString *const BOXAPIRepresentationKeyLinks = @"links";
+NSString *const BOXAPIRepresentationKeyContent = @"content";
+NSString *const BOXAPIRepresentationKeyType = @"type";
+NSString *const BOXAPIRepresentationKeyURL = @"url";
+NSString *const BOXAPIRepresentationKeyInfo = @"info";
+NSString *const BOXAPIRepresentationKeyDimensions = @"dimensions";
 
 // Parameter keys
 NSString *const BOXAPIParameterKeyFields = @"fields";

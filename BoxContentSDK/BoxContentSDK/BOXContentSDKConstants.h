@@ -149,6 +149,24 @@ extern BOXCollaborationRole *const BOXCollaborationRoleViewer;
 extern BOXCollaborationRole *const BOXCollaborationRolePreviewer;
 extern BOXCollaborationRole *const BOXCollaborationRoleUploader;
 
+// Representation Type
+typedef NSString BOXRepresentationType;
+extern BOXRepresentationType *const BOXRepresentationTypeOriginal;
+extern BOXRepresentationType *const BOXRepresentationTypePDF;
+extern BOXRepresentationType *const BOXRepresentationTypeMP4;
+extern BOXRepresentationType *const BOXRepresentationTypeMP3;
+
+// Representation Status
+typedef NSString BOXRepresentationStatus;
+extern BOXRepresentationStatus *const BOXRepresentationStatusSuccess;
+extern BOXRepresentationStatus *const BOXRepresentationStatusPending;
+extern BOXRepresentationStatus *const BOXRepresentationStatusNone;
+
+// Representation content type
+typedef NSString BOXRepresentationContentType;
+extern BOXRepresentationContentType *const BOXRepresentationContentTypeAsset;
+extern BOXRepresentationContentType *const BOXRepresentationContentTypeManifest;
+
 // Folder upload email access level
 typedef NSString BOXFolderUploadEmailAccessLevel;
 extern BOXFolderUploadEmailAccessLevel *const BOXFolderUploadEmailAccessLevelOpen;
